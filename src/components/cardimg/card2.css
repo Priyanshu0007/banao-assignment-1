@@ -1,0 +1,15 @@
+.addbtn{
+    border-color: #8064A2;
+    color: #8064A2;
+}
+
+.addbtn:hover{
+    background-color:#8064A2;
+    border-color: #8064A2;
+}
+.addicon{
+    color: #0096C8;
+}
+.containeer{
+    padding-bottom: 60px;
+}

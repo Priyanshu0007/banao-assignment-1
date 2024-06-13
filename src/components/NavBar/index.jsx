@@ -36,7 +36,7 @@ function NavBar() {
               />
               <Button variant="outline-success searchbtn"><i className="bi bi-search"></i></Button>
             </Form>
-            <div className={`icons ${window.innerWidth <= 576 ? 'justify-content-start' : ''}`}>
+            <div className={`icons`}>
               <Nav.Link className="home" href="#action1"><i className="bi bi-compass-fill text" style={{ color: getIconColor() }}></i></Nav.Link>
               <NavDropdown title="Explore" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#action3">People - Community</NavDropdown.Item>
@@ -53,8 +53,8 @@ function NavBar() {
               <Nav.Link href="#action2"><i className="bi bi-bell-fill" style={{ color: getIconColor() }}></i></Nav.Link>
             </div>
           </Nav>
-          <Button variant="outline-success signinbtn">Sign in</Button>
-        </Navbar.Collapse>
+          <Button variant="outline-success signinbtn sign-btn">Sign in</Button>
+        </Navbar.Collapse> 
       </Container>
     </Navbar>
   );

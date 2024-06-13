@@ -9,8 +9,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
   
+
 .App {
     text-align: center;
+    background-color: #F7F5F9 !important;
   }
   
   .App-logo {
@@ -40,6 +42,9 @@ body {
   }
   .card3{
     background-color: #fff;
+  }
+  .card2{
+    background-color: #F7FDFF;
   }
   
   @keyframes App-logo-spin {

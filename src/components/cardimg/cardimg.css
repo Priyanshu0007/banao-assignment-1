@@ -1,0 +1,84 @@
+.cartbtn{
+    border-color: black;
+    color: #8064A2;
+}
+.container{
+    padding: 0;
+   padding-top: 60px;
+
+}
+.cartbtn:hover{
+    background-color:#8064A2;
+
+    color: #fff;
+}
+
+.icon1{
+   color: #8064A2;
+}
+
+
+.icon2{
+  color: #77933C;
+}
+.icon3{
+    color: #C0504D;
+}
+.icon4{
+ color: #0096C8;
+}
+
+.btn-card{
+    width: 100%;
+    
+}
+.card-1:hover{
+    background-color: #8064A2;
+    color: white;
+}
+.card-1:hover button{
+    background-color: white;
+    color: #8064A2;
+}
+.card-1:hover .icon1{
+    color: white;
+}
+.card-2:hover{
+    background-color: #77933C;
+    color: white;
+}
+.card-2:hover button{
+    background-color: white;
+    color: #77933C;
+}
+.card-2:hover .icon2{
+    color: white;
+}
+.card-3:hover{
+    background-color: #C0504D;
+    color: white;
+}
+.card-3:hover button{
+    background-color: white;
+    color: #C0504D;
+}
+.card-3:hover .icon3{
+    color: white;
+}
+.card-4:hover{
+    background-color: #0096C8;
+    color: white;
+}
+.card-4:hover button{
+    background-color: white;
+    color: #0096C8;
+}
+.card-4:hover .icon4{
+    color: white;
+}
+@media (min-width: 576px){
+    .btn-card{
+        width: 20%;
+        
+    }
+  }

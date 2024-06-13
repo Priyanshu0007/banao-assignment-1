@@ -1,5 +1,6 @@
 .nav .navbar {
     background-color: #ffffff;
+    
 }
 
 .navbar-brand {
@@ -41,7 +42,15 @@
     background-color: #8064a2;
     border-color: #8064a2;
 }
+/* .icons{
+    display: flex;
+margin-left: 300px;
+padding-left: 130px;
 
+} */
+ .sign-btn{
+    width: 200px !important;
+ }
 .icons {
     display: flex;
     align-items: center;
@@ -50,15 +59,16 @@
   @media (max-width: 576px) {
     .icons {
       justify-content: flex-start;
+      gap: 1rem;
     }
   }
   @media (min-width: 576px){
     .icons{
         margin-left: 300px;
-        padding-left: 130px;
     }
   }
   
+
 .logo img{
     width: 180px;
     margin-left: 50px;
@@ -69,10 +79,10 @@ p{
     padding-top: 8px;
 }
 .signinbtn {
-    width: auto; 
+    width: auto; /* Allow the width to adjust based on content */
     height: 40px;
-    margin-right: 10px; 
-    padding: 0 15px; 
+    margin-right: 10px; /* Adjust margin as needed */
+    padding: 0 15px; /* Add padding to the button */
     border-color: #8064a2;
     color: #8064a2;
 }
